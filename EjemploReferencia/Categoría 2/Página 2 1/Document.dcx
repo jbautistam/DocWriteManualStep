@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[d1e44e3c-b4c5-4042-8ab5-699e6bee8d56]]>
+	</ID>
+	<Title>
+		<![CDATA[Página 2 1]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%p Contenido de la página 2.1]]>
+	</Content>
+	<ShowAtRSS>yes</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>2</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+	<Tag>
+		<![CDATA[Tags\Etiqueta 1]]>
+	</Tag>
+	<Tag>
+		<![CDATA[Tags\Etiqueta 2]]>
+	</Tag>
+</Document>

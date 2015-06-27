@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[d6e90a91-29e0-4679-8e6c-65648e1d747a]]>
+	</ID>
+	<Title>
+		<![CDATA[Artículos]]>
+	</Title>
+	<Description>
+		<![CDATA[Artículos de la etiqueta]]>
+	</Description>
+	<KeyWords>
+		<![CDATA[artículos]]>
+	</KeyWords>
+	<Content>
+		<![CDATA[%p Artículos con la etiqueta #b Blog # .]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>6</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

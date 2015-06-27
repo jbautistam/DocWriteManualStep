@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[d26beef8-366f-43d8-af39-7214c89a7048]]>
+	</ID>
+	<Title>
+		<![CDATA[PagerSection]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[<%if $UrlPreviousPage != "null" || $UrlNextPage != "null" || $UrlTopPage != "null" %>
+	%div { class="GridRow"}
+		%nav
+			%ul { class = "pager" }
+				<%if $UrlPreviousPage != "null" && $UrlPreviousPage != "" %>
+					%li #a { class="previous" href = $UrlPreviousPage } « $TitlePreviousPage #
+				<%if $UrlTopPage != "null" && $UrlTopPage != "" %>
+					%li #a { href = $UrlTopPage } $TitleTopPage #
+				<%if $UrlNextPage != "null" && $UrlNextPage != "" %>
+					%li #a { class="next" href = $UrlNextPage } $TitleNextPage » #]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>2</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

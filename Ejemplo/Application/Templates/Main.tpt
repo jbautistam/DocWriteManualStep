@@ -1,0 +1,67 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[1d7ad73b-ea37-4ee3-8799-f10b4c6e7c71]]>
+	</ID>
+	<Title>
+		<![CDATA[Main]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%html {lang="es"}
+	%head
+		%title $FullTitle
+		%meta { content = "text/html; charset=utf-8" http-equiv="Content-Type" }
+		%meta { name = "viewport" content="width=device-width, initial-scale=1.0" }
+		%meta { name = "revisit-after" content = "2 days"}
+		%meta { name = "robots" content = "index,follow"}
+		%meta { name = "publisher" content = $Author }
+		%meta { name = "copyright" content = "Creative Commons"}
+		%meta { name = "author" content = $Author }
+		%meta { name = "distribution" content ="global"}
+		%meta { name = "description" content = $Description }
+		%meta { name = "keywords" content = $Keywords }
+		%meta { name = "Content-Type" content = "Content-Type: text/html; charset=utf-8" }
+		%meta { name = "generator" content = "DocWriter" }
+		%meta { name="lang" content="es" }
+		%meta { name="siteinfo" content="robots.txt" }
+		%link { href="Styles\Layout.css" rel="stylesheet" }
+	%body
+		&Page
+			<!-- Cabecera -->
+			%header
+				$Header
+
+			<!-- Cuerpo -->
+			%section { class = "MainBar" }
+				<%if $Content != "" %>
+					%div
+						$Content
+				
+				<%if $AdditionalContent != "" && $AdditionalContent != "null" %>
+					%div
+						$AdditionalContent
+
+			%aside { class = "LateralBar" }
+				$LateralBar
+			
+			%NoTag
+				$Footer ]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>7</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

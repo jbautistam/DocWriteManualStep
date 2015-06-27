@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[55525ba7-73ef-4471-a317-a027797a2389]]>
+	</ID>
+	<Title>
+		<![CDATA[Indice]]>
+	</Title>
+	<Description>
+		<![CDATA[Indice del sitio Web de ejemplo de DocWriter]]>
+	</Description>
+	<KeyWords>
+		<![CDATA[indice, docwriter]]>
+	</KeyWords>
+	<Content>
+		<![CDATA[%p Esta es la página de índice del ejemplo.
+
+%p Ver el #a { href = "Manual" } Manual # ]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>2</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[edd3b9bb-f00c-47fa-8b54-f3e24f9d84f1]]>
+	</ID>
+	<Title>
+		<![CDATA[LateralBar]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%div { class = "panel bg-clr-secondary shadow-rotated" }
+	%header { class = "panel-header brd-bottom-dotted"}
+		%h4 { class = "ts-blue" } Acerca de
+	%p Un ejemplo de sitio Web con referencias ...
+	
+%div { class = "panel bg-clr-secondary brd-secondary-shadow" }
+	%header { class = "panel-header brd-bottom-dotted"}
+		%h4 { class = " ts-blue" } Etiquetas
+	%nav { class="list-group"}
+		%a { class="list-group-item" href = "Tags\Etiqueta 1" } Etiqueta 1
+		%a { class="list-group-item" href = "Tags\Etiqueta 2" } Etiqueta 2
+]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>1</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

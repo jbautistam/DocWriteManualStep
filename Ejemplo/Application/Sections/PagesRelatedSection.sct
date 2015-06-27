@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[d07f65ac-f733-4d5f-8ca2-8c261832339f]]>
+	</ID>
+	<Title>
+		<![CDATA[PagesRelatedSection]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[<%if $PageRelated[1]->$Url != "null" %>
+	%section { class="GridRow panel bg-clr-article" }
+		%header { class = "panel-header bg-clr-article-gradient" }
+			%h4 Páginas relacionadas
+		%div { class="GridRowFlex" }
+			<% for $intPageRelated = 1 to 10 %>
+				<%if $PageRelated[$intPageRelated]->$Url != "null"%>			
+					%div { class = "GridCell25 BoxThumb effect-ease-zoom-in" }
+						%article
+							%a { href = $PageRelated[$intPageRelated]->$Url Title = $PageRelated[$intPageRelated]->$Title }
+								<% if $PageRelated[$intPageRelated]->$UrlThumbnail != "" %>
+									%img { src = $PageRelated[$intPageRelated]->$UrlThumbnail 
+										   alt = $PageRelated[$intPageRelated]->$Title }
+								<% else %>
+									%img { src = "Images\NoImage.jpg" alt = $PageRelated[$intPageRelated]->$Title }	
+								%span $PageRelated[$intPageRelated]->$Title]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>2</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

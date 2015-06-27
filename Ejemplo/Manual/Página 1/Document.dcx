@@ -1,0 +1,37 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[53f5fcb3-7a00-4ffc-8c0b-2bf66a6acebd]]>
+	</ID>
+	<Title>
+		<![CDATA[Página 1]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%p Esta es la página 1 del manual.]]>
+	</Content>
+	<ShowAtRSS>yes</ShowAtRSS>
+	<ImageSummary>
+		<![CDATA[Manual\Página 1\Página 1.jpg]]>
+	</ImageSummary>
+	<ShowChilds>0</ShowChilds>
+	<Type>2</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+	<Tag>
+		<![CDATA[Tags\Blog]]>
+	</Tag>
+	<Tag>
+		<![CDATA[Tags\Manual]]>
+	</Tag>
+</Document>

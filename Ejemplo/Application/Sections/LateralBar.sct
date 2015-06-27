@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[419f1803-084a-4c4c-8241-dda1eac41432]]>
+	</ID>
+	<Title>
+		<![CDATA[LateralBar]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%div { class = "panel bg-clr-secondary shadow-rotated" }
+	%header { class = "panel-header brd-bottom-dotted"}
+		%h4 { class = "ts-blue" } Acerca de
+	%p Información general sobre el mejor sitio Web de Internet...
+	
+%div { class = "panel bg-clr-secondary brd-secondary-shadow" }
+	%header { class = "panel-header brd-bottom-dotted"}
+		%h4 { class = " ts-blue" } Etiquetas
+	%nav { class="list-group"}
+		%a { class="list-group-item" href = "Tags\Manual" } Manual
+		%a { class="list-group-item" href = "Tags\Blog" } Blog
+]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>1</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

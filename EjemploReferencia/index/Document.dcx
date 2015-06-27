@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[25debbe4-59b1-4ac7-9929-4f6b2f89e8e5]]>
+	</ID>
+	<Title>
+		<![CDATA[index]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%section { class = "GridRow" }
+	%article { class = "well bg-clr-article ShadowBottom" }
+		%h1 Ejemplo con referencias
+		%p #b Ejemplo con referencias # es un ejemplo de creación de un sitio utilizando proyectos de referencia.
+			
+		%p Puede ver más páginas en el menú superior.]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>2</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article>
+		<![CDATA[Application\Templates\PageLanding.tpt]]>
+	</Article>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage>
+		<![CDATA[Application\Templates\MainFullPage.tpt]]>
+	</TemplateMainPage>
+	<TemplateNews/>
+</Document>

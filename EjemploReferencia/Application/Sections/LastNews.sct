@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[aedfaadb-4c37-4dd3-91d1-2281634348e6]]>
+	</ID>
+	<Title>
+		<![CDATA[LastNews]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%header { class = "panel-body-footer-header"}
+	%h4 Últimas noticias
+	%NoTag
+		$Content]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>3</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+	<ChildPage>
+		<![CDATA[Categoria 1]]>
+	</ChildPage>
+	<ChildPage>
+		<![CDATA[Categoría 2]]>
+	</ChildPage>
+</Document>

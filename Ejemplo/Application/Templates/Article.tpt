@@ -1,0 +1,70 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[6976ac9d-f8d2-4a92-a47f-116b33da0d61]]>
+	</ID>
+	<Title>
+		<![CDATA[Article]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%div
+	$BreadCrumbSection
+
+%article { class = "panel bg-clr-article brd-article" itemscope = "" itemtype="http://schema.org/Article" }
+	%header { class = "panel-header bg-clr-article-gradient ts-white" }
+		%h1 $Title
+		
+	%nav { class = "list-horizontal" }
+		%ul
+			<% if $Tag[1]->$Title == "null" %>
+				%li Sin etiquetas
+			<%else%>
+				%li #i { class="fa fa-tags" } #	
+				<% for $intTag = 1 to 20 %>
+					<% if $Tag[$intTag]->$Title != "null" %>
+						%li #a { href = $Tag[$intTag]->$Url class="label bg-clr-tag" } $Tag[$intTag]->$Title #
+						
+	%aside { class = "DatePublishBlock"}
+		%span { class = "DayPublish"} $Day
+		%span { class = "MonthPublish" } $MonthName
+		%span { class = "YearPublish" } $Year	
+		
+	%div { class = "panel-body" itemprop="articleBody" }
+		%h4 $Description
+		%br
+		
+		<%if $UrlImage != "" %>
+			%div { class = "GridRow" }
+				%div { class = "thumb-regular" }
+					%img { src = $UrlImage alt = $Title }
+
+		%br
+		%div { class = "GridRow" }
+			$Content			
+	
+%NoTag
+	$PagesRelatedSection
+	
+%div
+	%br
+	$PagerSection
+	%br]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>7</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

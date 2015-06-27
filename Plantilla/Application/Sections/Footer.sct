@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[0ece1549-6862-4362-aafd-49aad38262d4]]>
+	</ID>
+	<Title>
+		<![CDATA[Footer]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%footer { class = "bg-clr-body-foot" }
+	%div { class = "GridRow" }
+		%section { class="GridCell33 panel" }
+			%header { class = "panel-body-footer-header"}
+				%h4 Ejemplo
+			%p Un ejemplo de sección de pie
+
+		%section { class="GridCell33 panel" }
+			<%if $LastNews != "" %>
+				%NoTag
+					$LastNews
+					
+		%section { class="GridCell33 panel" }
+			%header { class = "panel-body-footer-header"}
+				%h4 Enlaces
+			%nav { class = "list-vertical-dotted"}
+				%ul
+					%li #a {href="http://www.microsoft.com" target="_blank" } Microsoft #
+					%li #a {href="http://www.google.com/" target = "_blank" } Y Google #
+					
+	%div { class = "GridRow panel-body-footer-copyright bg-clr-body-foot-copyright txt-small" }
+		%div { class="GridCell50" }
+			%p © De mi sitio
+		%div { class="GridCell50" }
+			%nav { class = "list-horizontal-dotted fr" }
+				%ul
+					%li #a { href = "Index" } Inicio #
+					%li #a { href = "Manual" } Manual # 
+					%li #a { href = "SiteMap.tpg" } Mapa del sitio # ]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>1</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

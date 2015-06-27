@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[7ae9fb09-e6d4-4105-9168-939d41e17a73]]>
+	</ID>
+	<Title>
+		<![CDATA[Mapa del sitio]]>
+	</Title>
+	<Description>
+		<![CDATA[Mapa de nuestro sitio de ejemplo]]>
+	</Description>
+	<KeyWords>
+		<![CDATA[sitemap]]>
+	</KeyWords>
+	<Content>
+		<![CDATA[%p Este es el mapa del sitio de ejemplo]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>5</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+	<ChildPage>
+		<![CDATA[Manual]]>
+	</ChildPage>
+</Document>

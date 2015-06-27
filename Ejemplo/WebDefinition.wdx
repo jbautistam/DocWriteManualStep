@@ -1,0 +1,47 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<WebDefinition>
+	<Description/>
+	<Title>
+		<![CDATA[Ejemplo]]>
+	</Title>
+	<KeyWords/>
+	<WebType>
+		<![CDATA[Web]]>
+	</WebType>
+	<URLBase/>
+	<PageMain>
+		<![CDATA[index.htm]]>
+	</PageMain>
+	<ItemsPerCategory>5</ItemsPerCategory>
+	<ItemsPerSiteMap>50</ItemsPerSiteMap>
+	<MaxWidthImage>400</MaxWidthImage>
+	<ThumbsWidth>200</ThumbsWidth>
+	<AddWebTitle>yes</AddWebTitle>
+	<NumberParagraphsSummary>2</NumberParagraphsSummary>
+	<Webmaster/>
+	<Copyright/>
+	<Editor/>
+	<Variables/>
+	<Commands/>
+	<TemplateCategoryItem>
+		<![CDATA[Application\Templates\SiteMap.tpt]]>
+	</TemplateCategoryItem>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap>
+		<![CDATA[Application\Templates\SiteMap.tpt]]>
+	</TemplateSiteMap>
+	<Article>
+		<![CDATA[Application\Templates\Article.tpt]]>
+	</Article>
+	<CategoryHeader>
+		<![CDATA[Application\Templates\Category.tpt]]>
+	</CategoryHeader>
+	<TemplateTag/>
+	<TemplateMainPage>
+		<![CDATA[Application\Templates\Main.tpt]]>
+	</TemplateMainPage>
+	<TemplateNews>
+		<![CDATA[Application\Templates\NewsBlock.tpt]]>
+	</TemplateNews>
+</WebDefinition>

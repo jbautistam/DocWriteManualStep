@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<WebDefinition>
+	<Description/>
+	<Title>
+		<![CDATA[Plantilla]]>
+	</Title>
+	<KeyWords/>
+	<WebType>
+		<![CDATA[Template]]>
+	</WebType>
+	<URLBase/>
+	<PageMain/>
+	<ItemsPerCategory>5</ItemsPerCategory>
+	<ItemsPerSiteMap>50</ItemsPerSiteMap>
+	<MaxWidthImage>400</MaxWidthImage>
+	<ThumbsWidth>200</ThumbsWidth>
+	<AddWebTitle>yes</AddWebTitle>
+	<NumberParagraphsSummary>0</NumberParagraphsSummary>
+	<Webmaster/>
+	<Copyright/>
+	<Editor/>
+	<Variables/>
+	<Commands/>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</WebDefinition>

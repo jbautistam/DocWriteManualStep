@@ -1,0 +1,41 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[5dadc6bf-deea-4238-ad87-51fa9057f4ca]]>
+	</ID>
+	<Title>
+		<![CDATA[Header]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%div { class = "GridRow" }
+	%a { href = "index" rel="nofollow"} #img {src="Images\Logo.png" alt=$WebName} #
+
+%div { class = "GridRow" }
+	%nav { class = "menu-main" }
+		%ul  
+			%li #a { href=$IndexPage title="Página principal de la web" } Inicio # 
+			%li #a { href = "Categoria 1" } Categoría 1 # 
+			%li #a { href = "Categoría 2" } Categoría 2 #
+			%li #a { href= $TwitterPage rel="nofollow" target="_blank" } 
+				#img { src="Images\twitter.png" alt="Síganos en Twitter" } # # 
+			%li #a { href = "MainFeed.rss" rel="nofollow" target="_blank"} 
+				#img {src="Images\rss.png" alt="Suscripción RSS"} # #]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>1</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

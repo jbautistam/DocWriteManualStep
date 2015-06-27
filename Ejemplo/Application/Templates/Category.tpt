@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[e67baa56-de81-4d8d-8245-33bab35a9302]]>
+	</ID>
+	<Title>
+		<![CDATA[Category]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%article { class = "panel bg-clr-article brd-rounded-shadow"}
+	%header { class="panel-header bg-clr-article-gradient brd-bottom-dotted ts-white" }
+		%h1 $Title
+	%div { class = "GridRow" }
+		<% if $UrlThumbnail != "" || $UrlImage != "" %>
+			%div { class = "GridCell25 fl thumb-small" }
+				<%if $UrlThumbnail != "" %>
+					%img { src = $UrlThumbnail alt=$Title}
+				<%else%>
+					<%if $UrlImage != "" %>
+						%img { src = $UrlImage alt=$Title}
+			%div { class = "GridCell75 fr" }
+					$Content
+		<% else %>
+			%NoTag
+				$Content]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>7</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[01ef19cf-be35-4939-a9e7-b7dd33322005]]>
+	</ID>
+	<Title>
+		<![CDATA[BreadCrumbSection]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[<%if $BreadCrumb[1]->$Url != "null" %>
+		%ul { class="breadcrumb" itemscope = "" itemtype="http://data-vocabulary.org/Breadcrumb"}
+			%li
+				%a { href=$IndexPage title="Inicio"} 
+					%img { src="images\HomeBreadcrumb.png" alt="Inicio" class="home" }
+			<% for $intPage = 1 to 10 %>
+				<%if $BreadCrumb[$intPage]->$Url != "null"%>
+					%li
+						%a { href = $BreadCrumb[$intPage]->$Url itemprop="url" } 
+							%span {itemprop = "title"} $BreadCrumb[$intPage]->$Title]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>2</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

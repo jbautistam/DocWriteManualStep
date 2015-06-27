@@ -1,0 +1,37 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[6fbef0ab-0443-4738-8d15-b24211030cc3]]>
+	</ID>
+	<Title>
+		<![CDATA[Header]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[%div { class = "GridRow" }
+	%a { href = "index" rel="nofollow"} #img {src="Images\Logo.png" alt=$WebName} #
+
+%div { class = "GridRow" }
+	%nav { class = "menu-main" }
+		%ul  
+			%li #a { href="index" title="Página principal de la web" } Inicio # 
+			%li #a { href="Manual" title="Manual" } Manual # 
+			%li #a { href = "SiteMap.tpg" title = "Mapa del sitio" } Mapa del sitio #  ]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>4</Type>
+	<Scope>1</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>

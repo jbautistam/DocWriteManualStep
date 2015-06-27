@@ -1,0 +1,61 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Document IsRecursive = "no" >
+	<ID>
+		<![CDATA[4a2675f5-fd00-4940-8a7b-ceb6bb1574ba]]>
+	</ID>
+	<Title>
+		<![CDATA[CategoryItems]]>
+	</Title>
+	<Description/>
+	<KeyWords/>
+	<Content>
+		<![CDATA[<% for $intIndex = 1 to 100 %>
+	<% if $Url[$intIndex] != "null" %>
+		%article { class = "cb panel bg-clr-summary brd-rounded-shadow" }
+			%header { class = "panel-header bg-clr-summary-gradient"}
+					%h2 #a { href = $Url[$intIndex] } $Title[$intIndex] #
+			%div { class = "GridCell25 thumb-small fl" }
+				<%if $UrlThumbnail[$intIndex] != "" %>
+					%a {href= $Url[$intIndex] } #img {src = $UrlThumbnail[$intIndex] alt=$Title[$intIndex]} #
+				<%else%>
+					<%if $UrlImage[$intIndex] != "" %>
+						%a {href = $Url[$intIndex] } #img {src = $UrlImage[$intIndex] alt=$Title[$intIndex]} #
+					<%else%>
+						%a {href = $Url[$intIndex] } #img {src="Images\NoImage.jpg" alt=$Title[$intIndex]} #
+			%div { class = "GridCell75 fr" }
+				$Content[$intIndex]
+				%a { class = "btn btn-sm btn-success fr" href= $Url[$intIndex] } Leer más ...
+				
+			%footer { class = "panel-footer"}
+				<% if $Tag[$intIndex] != "null" %>
+					%div { class = "GridCell50 fl" }
+						%nav { class = "list-horizontal-dotted txt-small" }
+							%ul
+								%li #i { class="fa fa-tags" } #
+								<% for $intTag = 1 to 20 %>
+									<% if $Tag[$intIndex]->$Title[$intTag] != "null" %>
+										%li #a { href = $Tag[$intIndex]->$Url[$intTag] class = "label bg-clr-tag" } $Tag[$intIndex]->$Title[$intTag] #
+				%div { class = "GridCell25 fr" }			
+					%p #b #i { class = "fa fa-calendar" } # $Date[$intIndex] #
+					
+%div
+	%br
+	$PagerSection
+	%br]]>
+	</Content>
+	<ShowAtRSS>no</ShowAtRSS>
+	<ImageSummary/>
+	<ShowChilds>0</ShowChilds>
+	<Type>7</Type>
+	<Scope>0</Scope>
+	<DateCreate>0001-01-01 00:00:00</DateCreate>
+	<TemplateCategoryItem/>
+	<TemplateGallery/>
+	<TemplateGalleryImage/>
+	<TemplateSiteMap/>
+	<Article/>
+	<CategoryHeader/>
+	<TemplateTag/>
+	<TemplateMainPage/>
+	<TemplateNews/>
+</Document>
