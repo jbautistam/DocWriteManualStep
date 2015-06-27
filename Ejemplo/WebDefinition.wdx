@@ -24,7 +24,7 @@
 	<Variables/>
 	<Commands/>
 	<TemplateCategoryItem>
-		<![CDATA[Application\Templates\SiteMap.tpt]]>
+		<![CDATA[Application\Templates\CategoryItems.tpt]]>
 	</TemplateCategoryItem>
 	<TemplateGallery/>
 	<TemplateGalleryImage/>
